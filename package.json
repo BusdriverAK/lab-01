@@ -4,6 +4,7 @@
   "description": "this will be sooooo cool",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./lib/arithmetic.js ./lib/greet.js",
     "test": "jest"
   },
   "author": "",
