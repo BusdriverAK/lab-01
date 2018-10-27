@@ -1,7 +1,7 @@
 'use strict';
 
 const greet = require('../lib/greet.js');
-const faker = require('faker');
+//const faker = require('faker');
 
 test('returns null if not a string', ()=>{
   expect(greet.hello(4)).toBe(null);
