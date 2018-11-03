@@ -1,11 +1,17 @@
 'use strict';
 
 const arithmetic = require('../lib/arithmetic.js');
-//const faker = require('faker');
-
 
 test('makes sure inputs are valid number', () =>{
   expect(arithmetic.nan('dog', 3)).toBe(null);
+});
+
+test('makes sure inputs are valid number', () =>{
+  expect(arithmetic.nan(14 , 'cat')).toBe(null);
+});
+
+test('makes sure inputs are valid number', () =>{
+  expect(arithmetic.nan('puppy', 'kitten')).toBe(null);
 });
 
 test('adds 1 + 2 to equal 3', () => {
